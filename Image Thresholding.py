@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('C:\\Users\\arafe\\Desktop\\image analysis\\book.PNG')
+img = cv2.imread('book.PNG')
 
 #Theresholding using THRESH_BINARY on the RGB image
 _, RGB_binary_threshold = cv2.threshold(img, 12, 255, cv2.THRESH_BINARY)
